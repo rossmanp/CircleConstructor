@@ -1,0 +1,8 @@
+C:\Users\peter\OneDrive\Documents\Visual Studio 2015\Projects\GC_Lab9_CircleCalcs\GC_Lab9_CircleCalcs\bin\Debug\GC_Lab9_CircleCalcs.exe.config
+C:\Users\peter\OneDrive\Documents\Visual Studio 2015\Projects\GC_Lab9_CircleCalcs\GC_Lab9_CircleCalcs\bin\Debug\GC_Lab9_CircleCalcs.exe
+C:\Users\peter\OneDrive\Documents\Visual Studio 2015\Projects\GC_Lab9_CircleCalcs\GC_Lab9_CircleCalcs\bin\Debug\GC_Lab9_CircleCalcs.pdb
+C:\Users\peter\OneDrive\Documents\Visual Studio 2015\Projects\GC_Lab9_CircleCalcs\GC_Lab9_CircleCalcs\bin\Debug\nunit.framework.dll
+C:\Users\peter\OneDrive\Documents\Visual Studio 2015\Projects\GC_Lab9_CircleCalcs\GC_Lab9_CircleCalcs\bin\Debug\nunit.framework.xml
+C:\Users\peter\OneDrive\Documents\Visual Studio 2015\Projects\GC_Lab9_CircleCalcs\GC_Lab9_CircleCalcs\obj\Debug\GC_Lab9_CircleCalcs.csprojResolveAssemblyReference.cache
+C:\Users\peter\OneDrive\Documents\Visual Studio 2015\Projects\GC_Lab9_CircleCalcs\GC_Lab9_CircleCalcs\obj\Debug\GC_Lab9_CircleCalcs.exe
+C:\Users\peter\OneDrive\Documents\Visual Studio 2015\Projects\GC_Lab9_CircleCalcs\GC_Lab9_CircleCalcs\obj\Debug\GC_Lab9_CircleCalcs.pdb
