@@ -23,6 +23,18 @@ namespace GC_Lab9_CircleCalcs
 
         public string GetFormattedArea() => String.Format("{0:F2}", GetArea());
 
+        private string formatNumber(double x) => Convert.ToString(x);
 
+        public string Format(double x) => formatNumber(x);
+
+        public void PrintArea()
+        {
+            Console.WriteLine("Area: " + GetFormattedArea());
+        }
+
+        public void PrintCircumference()
+        {
+            Console.WriteLine("Circumference: " + GetFormattedCircumference());
+        }
     }
 }
