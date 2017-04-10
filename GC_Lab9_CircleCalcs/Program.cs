@@ -10,13 +10,17 @@ namespace GC_Lab9_CircleCalcs
     {
         static void Main(string[] args)
         {
-            double radius = 0;
-            double numberOfCircles = 0;
-            Console.WriteLine("Welcome to the Circle Tester!");
             bool tryInput = true;
             bool run = true;
+            double radius = 0;
+            double numberOfCircles = 0;
+
+            Console.WriteLine("Welcome to the Circle Tester!");
+           
+            //This loop runs until the Continue method returns a false value for run.
             while (run)
             {
+                //This loop runs until a valid value for the radius (any humber > 0).
                 while (tryInput)
                 {
                     tryInput = false;
@@ -40,10 +44,16 @@ namespace GC_Lab9_CircleCalcs
                         tryInput = true;
                     }
                 }
-                Circle round = new Circle(radius);                
+                //Instaniate a Circle object using the user's radius
+                Circle round = new Circle(radius); 
+                                               
                 round.PrintCircumference();
                 round.PrintArea();
                 tryInput = true;
+
+                //Add one to the numberOfCircles counter so the correct value can be
+                //passed to the Format method if user wants to quit
+
                 numberOfCircles++;
                 run = Continue();
                 if (run == false)
@@ -53,6 +63,8 @@ namespace GC_Lab9_CircleCalcs
             }
             Console.ReadLine();           
           }
+        
+        //This method allows the user to repeat the circle calculator ad infinitium.
 
         public static Boolean Continue()
         {
@@ -77,5 +89,5 @@ namespace GC_Lab9_CircleCalcs
             return run;
         }
     }
-    }
+}
 

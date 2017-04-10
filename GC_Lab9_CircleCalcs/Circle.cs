@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace GC_Lab9_CircleCalcs
 {
-    class Circle
+    public class Circle
     {
         private double _radius;
+
+        //Circle constructor that takes a double argument:
 
         public Circle(double radius)
         {
